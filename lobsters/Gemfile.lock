@@ -262,6 +262,8 @@ GEM
     ttfunk (1.6.2.1)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2020.1)
+      tzinfo (>= 1.0.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.7.0)
@@ -322,6 +324,7 @@ DEPENDENCIES
   stackprof
   svg-graph
   transaction_retry
+  tzinfo-data
   uglifier (>= 1.3.0)
   vcr
   webmock

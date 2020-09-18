@@ -4,7 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery
   before_action :authenticate_user
   before_action :mini_profiler
-  before_action :set_traffic_style
   before_action :prepare_exception_notifier
 
   # match this in your nginx config for bypassing the file cache
