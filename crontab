@@ -1,0 +1,1 @@
+*/5 * * * *  cd /code && env RAILS_ENV=production sh -c 'bundle exec ruby script/mail_new_activity; bundle exec ruby script/post_to_twitter; bundle exec ruby script/traffic_range'
