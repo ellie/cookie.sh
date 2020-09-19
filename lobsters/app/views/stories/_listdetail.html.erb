@@ -93,6 +93,14 @@ class="story <%= story.vote && story.vote[:vote] == 1 ? "upvoted" : "" %>
       <% end %>
     <% end %>
 
+    <% if !(defined?(single_story) && single_story) && !@user %>
+      <% if (sc = story.description_or_story_text(500)).present? %>
+        <div class="story_content">
+          <%= break_long_words(sc) %>
+        </div>
+      <% end %>
+    <% end %>
+
     <div class="byline">
       <% if (@user && @user.show_avatars?) || !@user %>
         <a href="/u/<%= story.user.username %>"><%=
