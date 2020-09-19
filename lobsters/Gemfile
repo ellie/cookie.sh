@@ -13,7 +13,7 @@ gem "tzinfo-data"
 gem 'scenic'
 gem 'scenic-mysql_adapter'
 gem "activerecord-typedstore"
-gem 'sprockets-rails', '3.0'
+gem 'sprockets-rails', '3.2.2'
 
 # js
 gem "jquery-rails", "~> 4.3"
