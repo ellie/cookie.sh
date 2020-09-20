@@ -163,9 +163,6 @@ class Story < ApplicationRecord
       errors.add(:title, " starting 'Ask #{Rails.application.name}' or similar is redundant " <<
                           "with the ask tag.")
     end
-    if self.title.match(GRAPHICS_RE)
-      errors.add(:title, " may not contain graphic codepoints")
-    end
 
     if !errors.any? && self.url.blank?
       self.user_is_author = true
