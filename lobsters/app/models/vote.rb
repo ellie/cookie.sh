@@ -10,8 +10,6 @@ class Vote < ApplicationRecord
 
   # don't forget to edit the explanations on /about
   COMMENT_REASONS = {
-    "O" => "Off-topic",
-    "M" => "Me-too",
     "T" => "Troll",
     "U" => "Unkind",
     "S" => "Spam",
@@ -23,7 +21,6 @@ class Vote < ApplicationRecord
 
   # don't forget to edit the explanations on /about
   STORY_REASONS = {
-    "O" => "Off-topic",
     "A" => "Already Posted",
     "B" => "Broken Link",
     "S" => "Spam",
