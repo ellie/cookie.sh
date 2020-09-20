@@ -26,14 +26,6 @@ yarn-error.log
 yarn.lock
 .byebug*
 
-# templates to be created per-site
-app/views/home/privacy.*
-app/views/home/about.*
-app/views/home/chat.*
-app/views/home/404.*
-app/views/layouts/_footer.*
-app/assets/stylesheets/local/*
-
 # files added in production
 lib/tasks/deploy.rake
 config/initializers/production.rb
