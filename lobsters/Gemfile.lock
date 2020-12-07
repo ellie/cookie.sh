@@ -186,7 +186,7 @@ GEM
     rb-readline (0.5.5)
     regexp_parser (1.7.1)
     rexml (3.2.4)
-    rotp (6.1.0)
+    rotp (6.2.0)
     rqrcode (1.1.2)
       chunky_png (~> 1.0)
       rqrcode_core (~> 0.1)
