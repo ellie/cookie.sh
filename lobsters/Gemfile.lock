@@ -80,7 +80,8 @@ GEM
     commonmarker (0.21.0)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.7)
-    crack (0.4.4)
+    crack (0.4.5)
+      rexml
     crass (1.0.6)
     database_cleaner (1.8.5)
     diff-lcs (1.4.4)
@@ -268,7 +269,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.7.0)
     vcr (6.0.0)
-    webmock (3.9.1)
+    webmock (3.12.1)
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff (>= 0.4.0, < 2.0.0)
